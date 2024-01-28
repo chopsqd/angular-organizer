@@ -10,3 +10,13 @@ export interface IDay {
 export interface IWeek {
   days: IDay[]
 }
+
+export interface ITask {
+  id?: string
+  title: string
+  date: string
+}
+
+export interface ICreateResponse {
+  name: string
+}

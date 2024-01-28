@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {IWeek} from './types';
+import {IWeek} from '../shared/types';
 import {DateService} from '../shared/date.service';
 import * as moment from 'moment';
 
